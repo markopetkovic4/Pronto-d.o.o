@@ -1,0 +1,107 @@
+ 
+    h1{
+    
+    text-align: center;
+    
+    background-color: lightskyblue;
+    
+    font-size: 40px;
+    
+    }
+    
+    .slika{border-radius: 50px;
+    
+    max-width: 100%;
+    
+    margin-left: auto;
+    
+    margin-right: auto;
+    
+    display: block;
+    
+    }
+    .slikee{border-radius: 50px;
+    
+    max-width: 27%;
+    
+    max-height: 27%;
+    
+    margin-left: auto;
+    
+    margin-right: auto;
+    
+    display: inline-block;
+    
+    }
+    
+    .div_slike{text-align: center;}
+    
+    
+    p{ font-size: 20px;
+    
+    text-align: left;
+    
+    background-color: lightskyblue;
+     
+    color: white;
+    
+    }
+
+    
+    [title*="forma1"]{
+    
+    background:silver;
+    
+    border:3px solid grey
+    
+    }
+    
+   
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+    #divara{background-color: lightgrey;}
+    
+    .nav {
+    
+    overflow: auto;
+    
+    background:grey;
+    
+    border-style: solid; border-color: black;
+    
+    }
+    
+    .nav a {
+    
+    float: left;
+    
+    font-size: 17px;
+    
+    
+    display: inline-block;
+    
+    color: lightskyblue;
+    
+    font-weight:bold;
+    
+    text-align: center;
+    
+    padding: 1% 2%;
+    
+    text-decoration: none;
+    
+    }
+
+
+
+button:hover {
+    background-color: #ff0000;
+    color: #fff;
+}
+button:active {
+    transform: translateY(2px);
+}
+   
