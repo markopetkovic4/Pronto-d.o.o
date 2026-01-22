@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Times New Roman", serif;
+    background: #e5e5e5;
+    background-image: radial-gradient(#dcdcdc 1px, transparent 1px);
+    background-size: 4px 4px;
+}
+header {
+    background: #d9eef3;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #999;
+    
+    font-size: 36px;
+}header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    animation: promenaBoje 1s linear infinite;
+}
+    
+
+nav {
+    background: #7b7b7b;
+    border: 2px solid black;
+    padding: 10px 0;
+    text-align: left;
+}
+nav a {
+    color: #aee4ff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 16px;
+}
+nav a:hover,
+nav a.active {
+    color: yellow;
+}
+.info {
+    background: #6bbcff;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+}
+.content {
+    padding: 30px;
+    text-align: left;
+}
+button {
+    background: #2f80ed;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+button:hover {
+    background: #1c5db6;
+}
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 75%;
+    border-radius: 25px;
+}
+.lista {
+    margin: 20px 40px;
+    font-size: 15px;
+}
+.lista li {
+    margin-bottom: 5px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px 0;
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 25px;
+    width: 250px;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    background: #f5f5f5;
+}
+th, td {
+    border: 2px solid #57f2a2;
+    padding: 10px 25px;
+    font-size: 14px;
+}
+form {
+    background: #cfcfcf;
+    border: 2px solid #999;
+    padding: 20px;
+    margin: 20px;
+    width: 90%;
+}
+form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+form input,
+form textarea {
+    width: 300px;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.center {
+    text-align: center;
+    margin-top: 10px;
+}
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 26px;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+nav a {
+        margin: 5px 20px;
+    }
+img {
+        max-width: 95%;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    form {
+        width: 95%;
+    }
+
+    form input,
+    form textarea {
+        width: 100%;
+    }
+
+    table {
+        width: 95%;
+        font-size: 13px;
+    }
+
+
+
+}
+@keyframes promenaBoje {
+    0%   { color: #2f80ed; }
+    50%  { color: white; }
+    100% { color: #2f80ed; }
+}
